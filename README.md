@@ -8,11 +8,11 @@ Outputs include:
 - IUPAC name
 - Up to 5 known synonyms (e.g., trade names or alternate names)
 
-Example:
+# Example:
     python smiles_info_with_names.py "CC(=O)NC1=CC=C(C=C1)O"
     python smiles_info_with_names.py "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O"
     python smiles_info_with_names.py "CC(CC1=CC=CC=C1)CC(C(=O)O)NC(=O)CCCN"
 
-Dependencies:
+# Dependencies:
     - rdkit
     - requests
